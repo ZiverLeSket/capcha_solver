@@ -1,0 +1,10 @@
+samples/
+batch1/
+batch2/
+starisolver/
+testsamples/
+unsolved/
+.env
+training.py
+test_requirements.txt
+.venv/
