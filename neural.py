@@ -33,7 +33,7 @@ for sym_idx, sym in enumerate(symbols):
     data[sym_idx] = 1
     sym_map[sym] = torch.tensor(data, device=_DEVICE_, dtype=torch.float32)
 
-sample = cv.imread("batch1/csoxzm.jpg")
+sample = cv.imread("example.jpg")
 gray_sample = cv.cvtColor(sample, cv.COLOR_BGR2GRAY)
 gray_sample = gray_sample/255
 cropped_sample = gray_sample[15:53, 9:135]
